@@ -4,8 +4,13 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
+    "async": "^2.6.0",
+    "bootstrap": "^4.0.0-alpha.2",
     "express": "^4.16.2",
-    "nodemon": "^1.14.12"
+    "fs": "0.0.1-security",
+    "jquery": "^2.2.1",
+    "nodemon": "^1.14.12",
+    "request": "^2.83.0"
   },
   "devDependencies": {},
   "scripts": {
