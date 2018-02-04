@@ -9,8 +9,11 @@
     "express": "^4.16.2",
     "fs": "0.0.1-security",
     "jquery": "^2.2.1",
+    "lodash": "^4.6.1",
     "nodemon": "^1.14.12",
-    "request": "^2.83.0"
+    "request": "^2.83.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
   },
   "devDependencies": {},
   "scripts": {
