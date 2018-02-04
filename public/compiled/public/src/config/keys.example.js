@@ -1,0 +1,16 @@
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+//lol glhf
+//you need to create your own keys.js file in here xd
+var docusignKey = {
+	username: 'USERNAME',
+	password: 'PASSWORD',
+	accountId: 'ACCOUNT_ID',
+	integratorKey: 'INTEGRATOR_KEY'
+};
+
+exports.default = docusignKey;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uLy4uL3NyYy9jb25maWcva2V5cy5leGFtcGxlLmpzIl0sIm5hbWVzIjpbImRvY3VzaWduS2V5IiwidXNlcm5hbWUiLCJwYXNzd29yZCIsImFjY291bnRJZCIsImludGVncmF0b3JLZXkiXSwibWFwcGluZ3MiOiI7Ozs7O0FBQUE7QUFDQTtBQUNBLElBQUlBLGNBQWM7QUFDakJDLFdBQVUsVUFETztBQUVqQkMsV0FBVSxVQUZPO0FBR2pCQyxZQUFXLFlBSE07QUFJakJDLGdCQUFlO0FBSkUsQ0FBbEI7O2tCQU9lSixXIiwiZmlsZSI6ImtleXMuZXhhbXBsZS5qcyIsInNvdXJjZXNDb250ZW50IjpbIi8vbG9sIGdsaGZcbi8veW91IG5lZWQgdG8gY3JlYXRlIHlvdXIgb3duIGtleXMuanMgZmlsZSBpbiBoZXJlIHhkXG52YXIgZG9jdXNpZ25LZXkgPSB7XG5cdHVzZXJuYW1lOiAnVVNFUk5BTUUnLFxuXHRwYXNzd29yZDogJ1BBU1NXT1JEJyxcblx0YWNjb3VudElkOiAnQUNDT1VOVF9JRCcsXG5cdGludGVncmF0b3JLZXk6ICdJTlRFR1JBVE9SX0tFWScsXG59XG5cbmV4cG9ydCBkZWZhdWx0IGRvY3VzaWduS2V5OyJdfQ==

@@ -5,40 +5,16 @@ class Inputs extends React.Component {
   }
 
   handleClick(e) {
-    //console.log($('#firstName'));
-    var companyName = $('#companyName').val();
-    var recipients = {
-      signers: [{
-        email: $('#email').val(),
-        name: $('#firstName').val() + ' ' + $('#lastName').val(),
-        recipientId: 1,
-        routingOrder: 1,
-        tabs: {
-          "dateSignedTabs":
-          {
-            
-          }
-        }
-      }]
-
-    };
-    console.log(recipients);
+    console.log($('#name').val());
+    window.ApiCall();
   }
-
   render() {
     return (
       <div id="inputs" className="container">
         <div className="inputBox">
           <input 
-            id="firstName" 
-            placeholder="First Name" 
-            type="text"
-          />
-        </div>
-        <div className="inputBox">
-          <input 
-            id="lastName" 
-            placeholder="Last Name" 
+            id="name" 
+            placeholder="Name" 
             type="text"
           />
         </div>
@@ -47,13 +23,6 @@ class Inputs extends React.Component {
             id="email" 
             placeholder="Email Address" 
             type="email"
-          />
-        </div>
-        <div className="inputBox">
-          <input 
-            id="companyName" 
-            placeholder="Company Name" 
-            type="text"
           />
         </div>
         <div className="inputBox">
@@ -67,5 +36,4 @@ class Inputs extends React.Component {
   }
 
 }
-
-
+window.Inputs = Inputs;
